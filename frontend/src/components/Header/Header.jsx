@@ -15,20 +15,14 @@ import {skills} from "../../constants/constants";
 
 const Header = () => {
   const { darkMode, setDarkMode } = useContext(ThemeContext);
-  const [open, setOpen] = useState(false);
-  const toggleDrawer = (val) => {
-    setOpen(val);
-  };
+  
 
   return (
     <Box sx={{ flexGrow: 1, zIndex: 10, position: "relative" }}>
       <AppBar position="absolute" elevation={0}>
         <Toolbar sx={{ bgcolor: "primary.badge" }} variant="dense">
           <Box sx={{ flexGrow: 1 }}>
-            <MenuIcon
-              sx={{ display: { xs: "block", md: "none" } }}
-              onClick={() => toggleDrawer(true)}
-            />
+            
           </Box>
 
           {darkMode ? (
@@ -120,15 +114,7 @@ const Header = () => {
           )}
         </Toolbar>
       </AppBar>
-      <Drawer open={open} onClose={() => toggleDrawer(false)}>
-        <Box
-          sx={{
-            height: "100%",
-          }}
-        >
-          <Box>About</Box>
-        </Box>
-      </Drawer>
+      
     </Box>
   );
 };
