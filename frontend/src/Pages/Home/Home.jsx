@@ -1,10 +1,14 @@
 import React from "react";
+import AboutDeveloper from "./About/AboutDeveloper";
+import { Box, Stack } from "@mui/material";
+import Header from "../../components/Header/Header";
 
 const Home = () => {
   return (
-    <div>
-      <p>Hola</p>
-    </div>
+    <Box>
+       <Header />
+      <AboutDeveloper />
+    </Box>
   );
 };
 
