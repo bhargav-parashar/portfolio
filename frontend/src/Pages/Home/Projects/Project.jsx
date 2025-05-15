@@ -212,7 +212,10 @@ const Project = ({ item }) => {
               >
                 Site
               </Button>
-              {item.label == "AuthHR" && (
+              
+            </Stack>
+            {item.label == "AuthHR" && (
+              <Stack mt={1} direction="row" gap={1} alignItems="center">
                 <ShimmerButton
                   handleClick={(e) => {
                     e.stopPropagation();
@@ -225,8 +228,8 @@ const Project = ({ item }) => {
                   endIcon={<YouTubeIcon />}
                   label="Demo"
                 />
+                </Stack>
               )}
-            </Stack>
           </Box>
         </Stack>
         <Stack mt={1} direction="row" gap={1} alignItems="center">
