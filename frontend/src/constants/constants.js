@@ -240,7 +240,10 @@ const skills = {
       duration: "2018 - 2022",
     },
   ],
-  resume:"https://drive.google.com/file/d/17uSZAuapqbwBCI7sOJC4FyUle21tXT2D/view?usp=sharing"
+  resume:"https://drive.google.com/file/d/17uSZAuapqbwBCI7sOJC4FyUle21tXT2D/view?usp=sharing",
+  github:"https://github.com/bhargav-parashar",
+  linkedin:"https://www.linkedin.com/in/bhargavparashar/",
+  leetcode:"https://leetcode.com/u/bhp100/"
 };
 
 export { skills };
