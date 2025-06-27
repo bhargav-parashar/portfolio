@@ -6,13 +6,14 @@ const skills = {
           whether it's at work or in my free time, I’m constantly building,
           tinkering, and learning something new with every project.`,
   frontEnd: [
-    { id: 1, label: "Javascript" },
+    { id: 1, label: "JavaScript" },
     { id: 2, label: "React" },
     { id: 3, label: "MUI" },
     { id: 4, label: "Tailwind" },
-    { id: 5, label: "Bootstrap" },
-    { id: 6, label: "HTML5" },
-    { id: 7, label: "CSS3" },
+    { id: 5, label: "TypeScript" },
+    { id: 6, label: "Bootstrap" },
+    { id: 7, label: "HTML5" },
+    { id: 8, label: "CSS3" }
   ],
   backEnd: [
     { id: 1, label: "Node.js" },
