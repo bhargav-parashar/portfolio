@@ -49,9 +49,14 @@ const Header = () => {
               </Link>
               <Typography
                 variant={"body1"}
+                onClick={() => setDarkMode((prev) => !prev)}
                 sx={{
                   fontSize: { xs: "2vw", md: "1.2vw" },
                   color: "text.primary",
+                  "&:hover": {
+                      color: "cyan",
+                  },
+                  cursor:'pointer',
                 }}
               >
                 Light
@@ -92,9 +97,14 @@ const Header = () => {
               </Link>
               <Typography
                 variant={"body1"}
+                onClick={() => setDarkMode((prev) => !prev)}
                 sx={{
                   fontSize: { xs: "2vw", md: "1.2vw" },
                   color: "text.primary",
+                  "&:hover": {
+                      color: "brown",
+                  },
+                  cursor:'pointer',
                 }}
               >
                 Dark
