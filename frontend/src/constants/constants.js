@@ -240,7 +240,7 @@ const skills = {
       duration: "2018 - 2022",
     },
   ],
-  resume:"https://drive.google.com/file/d/1W3hx4m4CN4xfN81qIVxSjKC_1g__lRq5/view?usp=sharing"
+  resume:"https://drive.google.com/file/d/17uSZAuapqbwBCI7sOJC4FyUle21tXT2D/view?usp=sharing"
 };
 
 export { skills };
