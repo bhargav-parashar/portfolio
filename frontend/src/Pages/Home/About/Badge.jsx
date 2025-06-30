@@ -318,7 +318,8 @@ const Badge = () => {
                 }}
               />
             </Box>
-            <Box
+
+            {/* <Box
               component="a"
               href="https://www.crio.do/learn/portfolio/bhargavparashar99/"
               target="_blank"
@@ -368,7 +369,8 @@ const Badge = () => {
                   zIndex: 1,
                 }}
               />
-            </Box>
+            </Box> */}
+
           </Stack>
         </Box>
       </Stack>
