@@ -72,7 +72,7 @@ const skills = {
       tag: "Frontend",
       about: "Cart based E-Commerce Platform.",
       website:
-        "https://qkart-frontend-fxws968e5-bhargav-parashars-projects.vercel.app/",
+        "https://qkart-frontend-zeta-sable.vercel.app/",
       code: "https://github.com/bhargav-parashar/bhargavparashar99-ME_QKART_FRONTEND_V2",
       walkthrough: "",
       skills: [
