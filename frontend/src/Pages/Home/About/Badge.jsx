@@ -93,7 +93,7 @@ const Badge = () => {
                 color="text.badgeSubtext"
                 sx={{ fontSize: "0.7rem", textAlign: "justify" }}
               >
-                2.3 YOE | Accenture
+                2.5 YOE | Accenture
               </Typography>
             </Stack>
           </Stack>
