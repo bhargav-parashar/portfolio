@@ -1,7 +1,7 @@
-import React from "react";
 import { Box, Typography, Stack, Button } from "@mui/material";
 import SkillPill from "../Skills/SkillPill";
 import Launch from "@mui/icons-material/Launch";
+import VyomaPic from "../../../assets/vyomaPic.png";
 import AuthHRPic from "../../../assets/authHrPic.png";
 import QKartPic from "../../../assets/qKartPic.png";
 import MedifyPic from "../../../assets/medifyPic.png";
@@ -17,6 +17,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 const Project = ({ item }) => {
   const getImage = (label) => {
     if (label === "AuthHR") return AuthHRPic;
+    else if (label === "Vyoma") return VyomaPic;
     else if (label === "QKart") return QKartPic;
     else if (label === "Medify") return MedifyPic;
     else if (label === "Expense Tracker") return ExpensePic;

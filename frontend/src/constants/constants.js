@@ -10,10 +10,11 @@ const skills = {
     { id: 2, label: "React" },
     { id: 3, label: "MUI" },
     { id: 4, label: "Tailwind" },
-    { id: 5, label: "TypeScript" },
-    { id: 6, label: "Bootstrap" },
-    { id: 7, label: "HTML5" },
-    { id: 8, label: "CSS3" }
+    { id: 5, label: "Redux Toolkit" },
+    { id: 6, label: "TypeScript" },
+    { id: 7, label: "Bootstrap" },
+    { id: 8, label: "HTML5" },
+    { id: 9, label: "CSS3" }
   ],
   backEnd: [
     { id: 1, label: "Node.js" },
@@ -42,6 +43,24 @@ const skills = {
   projects: [
     {
       id: 1,
+      label: "Vyoma",
+      tag: "Frontend",
+      about:"An e-commerce platform allowing users to browse, filter, and manage products via cart and wishlist features.",
+      website: "https://vyoma-six.vercel.app/",
+      code: "https://github.com/bhargav-parashar/vyoma",
+      walkthrough: "",
+      skills: [
+        { id: 1, label: "React.js" },
+        { id: 2, label: "Tailwind CSS" },
+        { id: 3, label: "Redux Toolkit" },
+        { id: 4, label: "JavaScript" },
+        { id: 5, label: "VITE" },
+        { id: 6, label: "Debouncing" },
+        { id: 7, label: "Vercel" }
+      ],
+    },
+    {
+      id: 2,
       label: "AuthHR",
       tag: "Full-stack",
       about:
@@ -67,7 +86,7 @@ const skills = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       label: "QKart",
       tag: "Frontend",
       about: "Cart based E-Commerce Platform.",
@@ -85,7 +104,7 @@ const skills = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       label: "Medify",
       tag: "Frontend",
       about: "Doctor's appointment booking application.",
@@ -103,7 +122,7 @@ const skills = {
       ],
     },
     {
-      id: 4,
+      id: 5,
       label: "Expense Tracker",
       tag: "Frontend",
       about: "A personal expense tracker application.",
@@ -120,7 +139,7 @@ const skills = {
       ],
     },
     {
-      id: 5,
+      id: 6,
       label: "Swift Exit",
       tag: "Full-stack",
       about:
@@ -144,7 +163,7 @@ const skills = {
       ],
     },
     {
-      id: 6,
+      id: 7,
       label: "QTify",
       tag: "Frontend",
       about: "UI Layout of a music streaming platform.",
@@ -160,7 +179,7 @@ const skills = {
       ],
     },
     {
-      id: 7,
+      id: 8,
       label: "Task Manager",
       tag: "Full-stack",
       about: "CRUD operations based full-stack task management platform.",
@@ -180,7 +199,7 @@ const skills = {
       ],
     },
     {
-      id: 8,
+      id: 9,
       label: "Weather App",
       tag: "Frontend",
       about:
@@ -197,7 +216,7 @@ const skills = {
       ],
     },
     {
-      id: 9,
+      id: 10,
       label: "BotAI",
       tag: "Frontend",
       about: "AI Chat Application UI Layout for static data.",
