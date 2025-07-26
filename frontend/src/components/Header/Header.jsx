@@ -89,7 +89,7 @@ const Header = () => {
                 </Typography>
               </Link>
               <Link
-                href={skills.resume}
+                href={skills.resume.fullstack}
                 target="_blank"
                 rel="noopener noreferrer"
                 underline="none"
@@ -186,7 +186,7 @@ const Header = () => {
                 </Typography>
               </Link>
               <Link
-               href={skills.resume}
+               href={skills.fullstack}
                 target="_blank"
                 rel="noopener noreferrer"
                 underline="none"

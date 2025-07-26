@@ -259,7 +259,11 @@ const skills = {
       duration: "2018 - 2022",
     },
   ],
-  resume:"https://drive.google.com/file/d/17uSZAuapqbwBCI7sOJC4FyUle21tXT2D/view?usp=sharing",
+  resume:{
+    frontend : "https://drive.google.com/file/d/14f8r6LFT2slRNInLkbo3Qh-juIoON4Cs/view?usp=sharing",
+    fullstack : "https://drive.google.com/file/d/1HfkQ7G5Ieush_WLbxnjAkl_zXWqY2YV9/view?usp=sharing"
+  },
+  
   github:"https://github.com/bhargav-parashar",
   linkedin:"https://www.linkedin.com/in/bhargavparashar/",
   leetcode:"https://leetcode.com/u/bhp100/"
