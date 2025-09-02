@@ -260,8 +260,8 @@ const skills = {
     },
   ],
   resume:{
-    frontend : "https://drive.google.com/file/d/14f8r6LFT2slRNInLkbo3Qh-juIoON4Cs/view?usp=sharing",
-    fullstack : "https://drive.google.com/file/d/1HfkQ7G5Ieush_WLbxnjAkl_zXWqY2YV9/view?usp=sharing"
+    frontend : "https://drive.google.com/file/d/1jkbxJHxjFel93ka-4yWQ-Sdv9fgHD4F5/view?usp=sharing",
+    fullstack : "https://drive.google.com/file/d/1_SnGZp70bOkD_wfphmC_kSsUjB5PZnuU/view?usp=sharing"
   },
   
   github:"https://github.com/bhargav-parashar",
