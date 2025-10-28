@@ -235,11 +235,11 @@ const skills = {
   certifications: [ 
     {
       id: 1,
-      label: "Fellowship in Software Development - Fullstack",
-      source: "Crio.Do",
+      label: "GitHub Copilot (GH-300)",
+      source: "Microsoft",
       location: "Bengaluru, India",
-      date: "March, 2025",
-      link:"https://drive.google.com/file/d/1K-w7zycVQka2CiqFWWH7A3sSKo1c2k22/view?usp=sharing"
+      date: "October, 2025",
+      link:"https://learn.microsoft.com/api/credentials/share/en-gb/BhargavParashar-1743/2BAC607B77684A24?sharingId=24F01279E97DAF61"
     },
     {
       id: 2,
@@ -249,6 +249,15 @@ const skills = {
       date: "Ongoing",
       link:""
     },
+    {
+      id: 3,
+      label: "Fellowship in Software Development - Fullstack",
+      source: "Crio.Do",
+      location: "Bengaluru, India",
+      date: "March, 2025",
+      link:"https://drive.google.com/file/d/1K-w7zycVQka2CiqFWWH7A3sSKo1c2k22/view?usp=sharing"
+    }
+    
   ],
   education: [
     {
