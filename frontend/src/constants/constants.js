@@ -239,7 +239,7 @@ const skills = {
       source: "Amazon Web Services",
       location: "Bengaluru, India",
       date: "November, 2025",
-      link:"https://www.credly.com/badges/884e5c00-c972-4010-9172-f1307b8342e7/public_url"
+      link:"https://drive.google.com/file/d/1bFfUjQg4wWbDGn7qZw63nXXTHv2YxZTu/view?usp=sharing"
     },
     {
       id: 2,
