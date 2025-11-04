@@ -233,8 +233,16 @@ const skills = {
     },
   ],
   certifications: [ 
-    {
+     {
       id: 1,
+      label: "AWS Certified Cloud Practitioner (CLF-C02)",
+      source: "Amazon Web Services",
+      location: "Bengaluru, India",
+      date: "November, 2025",
+      link:"https://www.credly.com/badges/884e5c00-c972-4010-9172-f1307b8342e7/public_url"
+    },
+    {
+      id: 2,
       label: "GitHub Copilot (GH-300)",
       source: "Microsoft",
       location: "Bengaluru, India",
@@ -242,7 +250,7 @@ const skills = {
       link:"https://learn.microsoft.com/api/credentials/share/en-gb/BhargavParashar-1743/2BAC607B77684A24?sharingId=24F01279E97DAF61"
     },
     {
-      id: 2,
+      id: 3,
       label: "JavaScript Algorithms and Data Structures Masterclass ",
       source: "Udemy",
       location: "Remote",
@@ -250,7 +258,7 @@ const skills = {
       link:""
     },
     {
-      id: 3,
+      id: 4,
       label: "Fellowship in Software Development - Fullstack",
       source: "Crio.Do",
       location: "Bengaluru, India",
